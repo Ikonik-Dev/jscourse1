@@ -18,5 +18,33 @@ document.querySelector('.container').appendChild(button);
 function changeColor() {
     h1.style.color = 'red';
 }
+let a = 5;
+let b = 10;
+// Échangez les valeurs de a et b sans utiliser de variable temporaire
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(a, b);
+
+let num1 = 15;
+let num2 = 25;
+// Calculez la somme de num1 et num2 et stockez-la dans une nouvelle variable sum
+let sum = num1 + num2;
+console.log(sum);
+let firstName = "John";
+let lastName = "Doe";
+// Concaténez firstName et lastName pour créer une nouvelle variable fullName
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
+let count = 0;
+// Incrémentez count de 1, puis décrémentez-le de 2
+count++;
+count--;
+console.log(count);
+let strNumber = "123";
+// Convertissez strNumber en un nombre entier et stockez-le dans une nouvelle variable intNumber
+let intNumber = parseInt(strNumber);
+console.log(intNumber);
+
 
 // TODO: j'ajoute un event listener sur le bouton pour changer la couleur du h1
